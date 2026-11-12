@@ -1,0 +1,11 @@
+.content{
+    display: flex;
+    border-radius: 5px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+body{
+    background-color: rgb(208, 243, 242);
+}
