@@ -9,6 +9,9 @@ const moviePosters = [
     'covers/train.jpg',
 ];
 const movieList = document.getElementById('movieList');
+const poster = document.getElementById('poster')
+const mname = document.getElementById('name')
+const button = document.getElementById('movie')
 
 function renderMovies() {
     movieList.innerHTML = '';
@@ -28,3 +31,11 @@ function renderMovies() {
         movieList.append(item);
     });
 }
+
+button.addEventListener ('click', () => {
+    movieTitles.push(mname.value)
+    moviePosters.push(poster.valeu)
+
+    renderMovies()
+})
+renderMovies()
